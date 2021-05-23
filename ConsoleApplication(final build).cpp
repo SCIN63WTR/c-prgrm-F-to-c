@@ -5,17 +5,17 @@ using namespace std;
 
 int main()
 {
-	float farenheit, celcius;
+	float fahrenheit, celsius;
 	cout << "Temperature Convertor :\n";
 	cout << " Input the temperature in Celsius : ";
-	cin >> celcius;
-	farenheit = (celcius * 9.0) / 5.0 + 32;
-	cout << " The temperature in Celsius    : " << celcius << endl;
-	cout << " The temperature in Fahrenheit : " << farenheit << endl;
+	cin >> celsius;
+	fahrenheit = (celsius * 9.0) / 5.0 + 32;
+	cout << " The temperature in Celsius    : " << celsius << endl;
+	cout << " The temperature in Fahrenheit : " << fahrenheit << endl;
 	cout << endl;
 	int x;
 	cin >> x;
-return 0;
+        return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
